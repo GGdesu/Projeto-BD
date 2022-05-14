@@ -37,7 +37,7 @@ bio text
 );
 
 create table studio(
-id_studio int primary key,
+id_studio int primary key auto_increment,
 nome_studio varchar(20),
 fundacao date
 );
